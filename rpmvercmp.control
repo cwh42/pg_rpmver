@@ -1,0 +1,4 @@
+comment = 'compare rpm versions using librpm'
+default_version = '0.8.0'
+relocatable = true
+module_pathname = '$libdir/rpmvercmp'
