@@ -35,7 +35,7 @@ In psql:
 
 #### What already works
     SELECT * FROM test_rpmver ORDER BY version USING <, release using <;
+    SELECT * FROM test_rpmver WHERE version > '1.1.10';
 
 #### What not yet works
     SELECT * FROM test_rpmver ORDER BY version ASC, release ASC;
-    SELECT * FROM test_rpmver WHERE version > '1.1.10';
